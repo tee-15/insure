@@ -1,0 +1,330 @@
+/*big tablets to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width:1200px){
+    ul li {
+        
+        font-size: 35px;
+    }
+    .message{
+        width: 83em;
+    }
+    .row-images {
+        width: 77em;
+        background-color: hsl(256, 26%, 20%);
+        height: 27vh;
+        display: flex;
+        position: relative;
+        top: 50em;
+    }
+    .hero {
+        background-image: url(../image/image-intro-mobile.jpg);
+        width: 77em;
+        height: 50em;
+        position: relative;
+        top: -88em;
+        left: 0em;
+    }
+    img.svg-image {
+       
+        display: none;
+    }
+    .humanizing {
+        position: relative;
+        top: 6em;
+        text-align: center;
+        margin-left: 0em;
+    }
+    h1.insurance {
+        color: #fff;
+        font-size: 89px;
+    } 
+    p.life {
+        color: #fff;
+        margin-top: 2em;
+        line-height: 70px;
+        opacity: .5;
+        font-size: 34px;
+    }   
+    .row-different {
+        margin-top: 129em;
+        margin-left: 9em;
+    }
+    ul li {
+        margin-right: 2em;
+        font-size: 35px;
+        margin-top: 1em;
+    }
+    h1.insure {
+        font-size: 30px;
+        margin-top: 35px;
+        font-family: DM Serif Display;
+    }
+    button.btn {
+       
+        top: 7em;
+        font-size: 26px;
+        left: 7em;
+    }
+    img.left-img {
+        
+        display: none;
+    }
+    .line {
+        width: 6em;
+        margin-left: 24em;
+    }
+    .row-different {
+        margin-top: 58em;
+        margin-left: 9em;
+    }
+    h1.are {
+        font-size: 60px;
+        margin-top: 1em;
+        text-align: center;
+    }
+    .row-tags {
+       
+        flex-flow: column;
+    }
+    .process {
+        text-align: center;
+        margin-left: 7em;
+        margin-bottom: 4em;
+    }
+    section.row-about {
+        width: 125%;
+        margin-left: 0em;
+        height: 87em;
+    }
+    h1.more {
+        color: #fff;
+        margin-top: 6em;
+        font-size: 80px;
+        margin-left: 4em;
+        white-space: nowrap;
+    }
+    img.pattern {
+        width: 31em;
+        height: 86em;
+    }
+    .how-images{
+        left: -14em;
+    }
+    button.btn-vclivk {
+      
+        margin-top: 29em;
+        font-size: 29px;
+       
+        margin-left: -37em;
+    }
+    section.row-finest {
+       
+        margin-top: -5em;
+        flex-flow: column;
+        text-align: center;
+    }
+    .img.footer-pattern{
+        display: none;
+    }
+    .name-tag {
+        margin-left: 7em;
+        margin-top: -1em;
+        font-size: 31px;
+    }
+    .font-awesome {
+        
+        display: none;
+    }
+    hr.linne {
+      
+        display: none;
+    }
+    section.row-company {
+       
+        margin-left: 31em;
+        margin-top: 4em;
+        flex-flow: column;
+    }
+    a.view {
+        font-size: 31px;
+        opacity: 6.1;
+    }
+    h4.sales {
+        font-size: 40px;
+    }
+    .our {
+        margin-bottom: 5em;
+    }
+    
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+    ul li {
+       
+        font-size: 35px;
+    }
+    .message{
+        width: 83em;
+    }
+    .row-images {
+        width: 77em;
+        background-color: hsl(256, 26%, 20%);
+        height: 27vh;
+        display: flex;
+        position: relative;
+        top: 50em;
+    }
+    .hero {
+        background-image: url(../image/image-intro-mobile.jpg);
+        width: 77em;
+        height: 50em;
+        position: relative;
+        top: -88em;
+        left: 0em;
+    }
+    img.svg-image {
+       
+        display: none;
+    }
+    .humanizing {
+        position: relative;
+        top: 6em;
+        text-align: center;
+        margin-left: 0em;
+    }
+    h1.insurance {
+        color: #fff;
+        font-size: 89px;
+    }  
+    p.life {
+        color: #fff;
+        margin-top: 2em;
+        line-height: 70px;
+        opacity: .5;
+        font-size: 34px;
+    }  
+    .row-different {
+        margin-top: 129em;
+        margin-left: 9em;
+    }
+    ul li {
+        margin-right: 2em;
+        font-size: 35px;
+        margin-top: 1em;
+    }
+    h1.insure {
+        font-size: 30px;
+        margin-top: 35px;
+        font-family: DM Serif Display;
+    }
+    button.btn {
+       
+        top: 7em;
+        font-size: 26px;
+        left: 7em;
+    }
+    img.left-img {
+       
+        display: none;
+    }
+    .line {
+        width: 6em;
+        margin-left: 24em;
+    }
+    .row-different {
+        margin-top: 58em;
+        margin-left: 9em;
+    }
+    h1.are {
+        font-size: 60px;
+        margin-top: 1em;
+        text-align: center;
+    }
+    .row-tags {
+       
+        flex-flow: column;
+    }
+    .process {
+        text-align: center;
+        margin-left: 7em;
+        margin-bottom: 4em;
+    }
+    section.row-about {
+        width: 125%;
+        margin-left: 0em;
+        height: 87em;
+    }
+    h1.more {
+        color: #fff;
+        margin-top: 6em;
+        font-size: 80px;
+        margin-left: 4em;
+        white-space: nowrap;
+    }
+    img.pattern {
+        width: 31em;
+        height: 86em;
+    }
+    .how-images{
+        left: -14em;
+    }
+    button.btn-vclivk {
+      
+        margin-top: 29em;
+        font-size: 29px;
+       
+        margin-left: -37em;
+    }
+    section.row-finest {
+       
+        margin-top: -5em;
+        flex-flow: column;
+        text-align: center;
+    }
+    .img.footer-pattern{
+        display: none;
+    }
+    .name-tag {
+        margin-left: 7em;
+        margin-top: -1em;
+        font-size: 31px;
+    }
+    .font-awesome {
+        
+        display: none;
+    }
+    hr.linne {
+      
+        display: none;
+    }
+    section.row-company {
+       
+        margin-left: 31em;
+        margin-top: 4em;
+        flex-flow: column;
+    }
+    a.view {
+        font-size: 31px;
+        opacity: 6.1;
+    }
+    h1.sales {
+        font-size: 40px;
+    }
+    .our {
+        margin-bottom: 5em;
+    }
+    
+
+
+}
+
+/*small phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+
+
+    
+}
+/*small phone: from 0 to 480px*/
+@media only screen and (max-width:480px){
+    
+}

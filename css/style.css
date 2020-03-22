@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+   html,
+   body{
+     font-weight: 400,700;
+     font-size: 16px;
+     text-rendering: optimizeLegibility;
+     font-family:Karla;
+     
+
+    
+    
+     
+    
+    
+
+}
+a{
+    text-decoration: none;
+    
+}
+
+.hello {
+    color: red;
+}
+header{
+   background-color: #fff;  
+}
+.message {
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+    display: block;
+
+}
+ul li a:hover{
+    background-color: green;
+    
+
+}
+ul li ul li{
+    display: none;
+
+}
+
+
+ul li:hover ul li{
+    display: block;
+
+}
+h1.insure {
+    font-size: 30px;
+    margin-top: 5px;
+    font-family: DM Serif Display;
+}
+.row-images {
+    background-color: hsl(256, 26%, 20%);
+    height: 60vh;
+    display: flex;
+    position: relative;
+   
+}
+.hero {
+    background-image: url(../image/image-intro-desktop.jpg);
+    z-index: 5;
+    position: absolute;
+    height: 91%;
+    max-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 11em;
+    width: 32%;
+    top: 13em;
+}
+img.svg-image {
+    position: absolute;
+    top: -13em;
+    right: -176px;
+}
+/* .humanizing::before{
+    padding: 0px;
+    margin: 0px;
+    content: "";
+    width: 30%;
+    background-color: #fff;
+    line-height: 1px;
+    position: relative;
+    top: -4px;
+} */
+.humanizing {
+    margin-left: 10em;
+    position: relative;
+    top: 10em;
+   
+}
+h1.insurance {
+    padding-top: 1em;
+    color: #fff;
+    font-size: 45px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    
+}
+p.life {
+    color: #fff;
+    margin-top: 2em;
+    line-height: 27px;
+    opacity: .5;
+}
+button.btn {
+    margin-left: 12em;
+    background-color: transparent;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #fff;
+    position: relative;
+    top: 15em;
+}
+img.left-img {
+    width: 11em;
+    position: relative;
+    top: 10em;
+}
+.row-different {
+    margin-top: 24em;
+    margin-left: 9em;
+}
+.line {
+    width: 6em;
+}
+h1.are {
+    font-size: 45px;
+    margin-top: 1em;
+}
+.row-tags {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3em;
+    margin-top: 7em;
+}
+h4.snappy {
+    margin-top: 2em;
+    font-size: 23px;
+}
+p.minutes {
+    margin-top: 1em;
+    color: #000;
+    opacity: .5;
+}
+section.row-about {
+    display: flex;
+    margin-top: 14em;
+    background-color: hsl(256, 26%, 20%);
+    width: 85%;
+    margin-left: 9em;
+    border-radius: 20px;
+}
+.how-images {
+    position: relative;
+    left: 39em;
+}
+img.pattern {
+    width: 24em;
+}
+button.btn-vclivk {
+    padding-top: 1em;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 35em;
+    margin-top: 7em;
+    font-size: 12px;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+section.row-finest {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7em;
+}
+img.footer-pattern {
+    width: 29em;
+    position: relative;
+    top: 3em;
+}
+h1.more {
+    color: #fff;
+    margin-top: 2em;
+    font-size: 36px;
+    margin-left: 1em;
+}
+.name-tag {
+    margin-left: -91em;
+    margin-top: 6em;
+}
+.font-awesome {
+    margin-top: 6em;
+    margin-right: 6em;
+}
+hr.linne {
+    margin-top: -4em;
+    width: 84em;
+    margin-left: 9em;
+}
+section.row-company {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -7em;
+    margin-top: 2em;
+}
+a.view {
+    display: block;
+    line-height: 3em;
+    color: #000;
+    opacity: .5;
+    font-size: 13px;
+}
