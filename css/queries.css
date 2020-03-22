@@ -1,24 +1,25 @@
 /*big tablets to 1200px (width smaller than the 1140px row)*/
 @media only screen and (max-width:1200px){
     ul li {
-        
-        font-size: 35px;
+        margin-right: 2em;
+        font-size: 29px;
+        margin-top: 1em;
     }
     .message{
         width: 83em;
     }
     .row-images {
-        width: 77em;
+        width: 83em;
         background-color: hsl(256, 26%, 20%);
-        height: 27vh;
+        height: 51vh;
         display: flex;
         position: relative;
         top: 50em;
     }
     .hero {
         background-image: url(../image/image-intro-mobile.jpg);
-        width: 77em;
-        height: 50em;
+        width: 83em;
+        height: 53em;
         position: relative;
         top: -88em;
         left: 0em;
@@ -44,15 +45,8 @@
         opacity: .5;
         font-size: 34px;
     }   
-    .row-different {
-        margin-top: 129em;
-        margin-left: 9em;
-    }
-    ul li {
-        margin-right: 2em;
-        font-size: 35px;
-        margin-top: 1em;
-    }
+    
+   
     h1.insure {
         font-size: 30px;
         margin-top: 35px;
@@ -74,7 +68,7 @@
     }
     .row-different {
         margin-top: 58em;
-        margin-left: 9em;
+        margin-left: 19em;
     }
     h1.are {
         font-size: 60px;
@@ -87,11 +81,11 @@
     }
     .process {
         text-align: center;
-        margin-left: 7em;
+        margin-left: 19em;
         margin-bottom: 4em;
     }
     section.row-about {
-        width: 125%;
+        width: 135%;
         margin-left: 0em;
         height: 87em;
     }
@@ -106,8 +100,8 @@
         width: 31em;
         height: 86em;
     }
-    .how-images{
-        left: -14em;
+    .how-images {
+        left: -11em;
     }
     button.btn-vclivk {
       
@@ -122,12 +116,13 @@
         flex-flow: column;
         text-align: center;
     }
-    .img.footer-pattern{
+    img.footer-pattern {
+       
         display: none;
     }
     .name-tag {
-        margin-left: 7em;
-        margin-top: -1em;
+        margin-left: 9em;
+        margin-top: 6em;
         font-size: 31px;
     }
     .font-awesome {
@@ -140,7 +135,7 @@
     }
     section.row-company {
        
-        margin-left: 31em;
+        margin-left: 33em;
         margin-top: 4em;
         flex-flow: column;
     }
@@ -160,24 +155,25 @@
 /*small tablets to big tablets: from 768px to 1023px*/
 @media only screen and (max-width:1023px){
     ul li {
-       
-        font-size: 35px;
+        margin-right: 2em;
+        font-size: 29px;
+        margin-top: 1em;
     }
     .message{
         width: 83em;
     }
     .row-images {
-        width: 77em;
+        width: 83em;
         background-color: hsl(256, 26%, 20%);
-        height: 27vh;
+        height: 51vh;
         display: flex;
         position: relative;
         top: 50em;
     }
     .hero {
         background-image: url(../image/image-intro-mobile.jpg);
-        width: 77em;
-        height: 50em;
+        width: 83em;
+        height: 53em;
         position: relative;
         top: -88em;
         left: 0em;
@@ -204,14 +200,10 @@
         font-size: 34px;
     }  
     .row-different {
-        margin-top: 129em;
-        margin-left: 9em;
+        margin-top: 58em;
+        margin-left: 19em;
     }
-    ul li {
-        margin-right: 2em;
-        font-size: 35px;
-        margin-top: 1em;
-    }
+   
     h1.insure {
         font-size: 30px;
         margin-top: 35px;
@@ -231,10 +223,7 @@
         width: 6em;
         margin-left: 24em;
     }
-    .row-different {
-        margin-top: 58em;
-        margin-left: 9em;
-    }
+    
     h1.are {
         font-size: 60px;
         margin-top: 1em;
@@ -246,11 +235,11 @@
     }
     .process {
         text-align: center;
-        margin-left: 7em;
+        margin-left: 19em;
         margin-bottom: 4em;
     }
     section.row-about {
-        width: 125%;
+        width: 135%;
         margin-left: 0em;
         height: 87em;
     }
@@ -265,8 +254,8 @@
         width: 31em;
         height: 86em;
     }
-    .how-images{
-        left: -14em;
+    .how-images {
+        left: -11em;
     }
     button.btn-vclivk {
       
@@ -281,12 +270,13 @@
         flex-flow: column;
         text-align: center;
     }
-    .img.footer-pattern{
+    img.footer-pattern {
+       
         display: none;
     }
     .name-tag {
-        margin-left: 7em;
-        margin-top: -1em;
+        margin-left: 9em;
+        margin-top: 6em;
         font-size: 31px;
     }
     .font-awesome {
@@ -299,7 +289,7 @@
     }
     section.row-company {
        
-        margin-left: 31em;
+        margin-left: 33em;
         margin-top: 4em;
         flex-flow: column;
     }
