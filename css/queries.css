@@ -84,9 +84,9 @@
         margin-bottom: 4em;
     }
     section.row-about {
-        width: 135%;
         margin-left: 0em;
         height: 87em;
+        width: 86em;
     }
     h1.more {
         color: #fff;
@@ -100,7 +100,7 @@
         height: 86em;
     }
     .how-images {
-        left: -11em;
+        left: -7em;
     }
     button.btn-vclivk {
       
@@ -148,7 +148,16 @@
     .our {
         margin-bottom: 5em;
     }
-    
+    p.minutes {
+        margin-top: 1em;
+        color: #000;
+        opacity: .5;
+        font-size: 31px;
+    }
+    h4.snappy {
+        margin-top: 2em;
+        font-size: 37px;
+    }
 }
 
 /*small tablets to big tablets: from 768px to 1023px*/
@@ -237,9 +246,9 @@
         margin-bottom: 4em;
     }
     section.row-about {
-        width: 135%;
         margin-left: 0em;
         height: 87em;
+        width: 86em;
     }
     h1.more {
         color: #fff;
@@ -253,7 +262,7 @@
         height: 86em;
     }
     .how-images {
-        left: -11em;
+        left: -7em;
     }
     button.btn-vclivk {
       
@@ -300,6 +309,16 @@
     }
     .our {
         margin-bottom: 5em;
+    }
+    p.minutes {
+        margin-top: 1em;
+        color: #000;
+        opacity: .5;
+        font-size: 31px;
+    }
+    h4.snappy {
+        margin-top: 2em;
+        font-size: 37px;
     }
     
 
